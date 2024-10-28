@@ -60,7 +60,13 @@ hr {
 .text{
     font-family: 'Quicksand', sans-serif;
     font-size: var(--text-size);
-    line-height: 1.3rem;
+    line-height: 1.6rem;
+}
+
+.text p {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 40px;
+    /* margin-bottom: 20px; */
 }
 .huge-btn{
     display: block;
@@ -230,7 +236,7 @@ a:hover{
     margin: 8vh 0;
 }
 .timeline-img{
-    background-image: url(./img/lu-ra-chinchin.jpeg);
+    background-image: url(./img/lu-ra-gafas.jpg);
     height: 70vh;
     width: 30vw;
     background-position: center;
