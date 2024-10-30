@@ -58,6 +58,11 @@ hr {
     transform: translateY(0);
     opacity: 1;
 }
+
+.extra-padding {
+    padding: 0 40px;
+}
+
 .text{
     font-family: 'Quicksand', sans-serif;
     font-size: var(--text-size);
@@ -158,6 +163,10 @@ a:hover{
     html{
         font-size: 10px;
     }
+
+    .extra-padding {
+        padding: 0;
+    }
 }
 @media (max-width:570px){
     .checkbtn{
@@ -200,7 +209,7 @@ a:hover{
     justify-content: space-between;
 }
 .home-img{
-    background-image: url(./img/lu-ra-01.jpg);
+    background-image: url(./img/lu-ra-01.webp);
     background-size: cover;
     background-position: center;
 }
@@ -246,7 +255,7 @@ a:hover{
     margin: 8vh 0;
 }
 .timeline-img{
-    background-image: url(./img/lu-ra-gafas.jpg);
+    background-image: url(./img/lu-ra-gafas.webp);
     height: 70vh;
     width: 30vw;
     background-position: center;
@@ -289,7 +298,7 @@ a:hover{
     width: 40vw;
 }
 #story p{
-    width: 40vw;
+    width: 60vw;
     text-align: justify;
     font-size: var(--h3-size);
     line-height: var(--h3-size);
@@ -331,15 +340,15 @@ a:hover{
     background-position: center;
 }
 .gallery-img:nth-child(1){
-    background-image: url(./img/lu-ra-flores.jpg);
+    background-image: url(./img/lu-ra-flores.webp);
     background-position-x: top;
 }
 .gallery-img:nth-child(3){
-    background-image: url(./img/lu-ra-chuchis.png);
+    background-image: url(./img/lu-ra-chuchis.webp);
 }
 .gallery-img:nth-child(2){
     background-position-y: right;
-    background-image: url(./img/lu-ra-03.jpg);
+    background-image: url(./img/lu-ra-03.webp);
 }
 @media (max-width:1000px){
     .gallery{
@@ -383,7 +392,7 @@ a:hover{
 .hands{
     height: 120vh;
     width: 100%;
-    background-image: url(./img/lu-ra-rosario.jpg);
+    background-image: url(./img/lu-ra-rosario.webp);
     background-size: cover;
     background-position-x: center;
     background-attachment: fixed;
@@ -444,7 +453,7 @@ a:hover{
     display: block;
     height: 100vh;
     width: 40vw;
-    background-image: url(./img/lu-ra-promesa.jpg);
+    background-image: url(./img/lu-ra-promesa.webp);
     background-size: cover;
     background-position-y: center;
     background-repeat: no-repeat;
